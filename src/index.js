@@ -1,6 +1,6 @@
-var isObjectLike = require("is_object_like");
+var isNode = require("is_node");
 
 
 module.exports = function isElement(obj) {
-    return (obj && obj.nodeType === 1 && isObjectLike(obj)) || false;
+    return isNode(obj) && obj.nodeType === 1;
 };

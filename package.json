@@ -21,6 +21,6 @@
     "mocha": "^2.1.0"
   },
   "dependencies": {
-    "is_object_like": "nathanfaucett/is_object_like"
+    "is_node": "nathanfaucett/is_node"
   }
 }
