@@ -1,6 +1,9 @@
 var isNode = require("is_node");
 
 
-module.exports = function isElement(obj) {
+module.exports = isElement;
+
+
+function isElement(obj) {
     return isNode(obj) && obj.nodeType === 1;
-};
+}
