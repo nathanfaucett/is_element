@@ -1,4 +1,11 @@
 isElement
 =======
 
-isElement for the browser and node.js
+checks if value is a Element
+
+```javascript
+var isElement = require("@nathanfaucett/is_element");
+
+
+isElement(document.body); // true
+```
